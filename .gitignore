@@ -1,0 +1,47 @@
+﻿# Dependencies
+node_modules/
+frontend/node_modules/
+
+# Production build outputs
+dist/
+frontend/dist/
+frontend/dist-ssr/
+*.local
+
+# Java / Maven build files
+target/
+backend/target/
+*.class
+*.jar
+*.war
+
+# Embedded database storage
+data/
+backend/data/
+*.mv.db
+*.trace.db
+
+# IDE & Editor files
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+.project
+.classpath
+.settings/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS temporary files
+Thumbs.db
+.DS_Store
